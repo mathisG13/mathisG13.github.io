@@ -1,0 +1,14 @@
+.whole_page{
+    background: black;
+}
+
+.top_bar{
+    background-color: rgb(37, 36, 36);
+    height: 100px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+}
