@@ -11,4 +11,12 @@
     width: 80px;
     height: 80px;
     margin: 10px 10px 10px 10px;
+    display: inline;
+}
+
+.name{
+    font-size: 55px;
+    color: white;
+    display: inline;
+    margin-top: 0px;
 }
