@@ -1,11 +1,8 @@
-.whole_page{
-    background: black;
-}
-
 .top_bar{
-    background-color: rgb(37, 36, 36);
+    background-color: black;
     height: 100px;
     line-height: 10px;
+    flex-direction: column;
 }
 
 .logo{
@@ -16,9 +13,8 @@
 }
 
 .name{
-    line-height: 60px;
+    height: 60px;
     font-size: 55px;
-    color: white;
+    color: red;
     display: inline;
-    vertical-align: top;
 }
