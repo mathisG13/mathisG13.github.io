@@ -5,6 +5,7 @@
 .top_bar{
     background-color: rgb(37, 36, 36);
     height: 100px;
+    line-height: 10px;
 }
 
 .logo{
@@ -15,8 +16,9 @@
 }
 
 .name{
+    line-height: 60px;
     font-size: 55px;
     color: white;
     display: inline;
-    margin-top: 0px;
+    vertical-align: top;
 }
