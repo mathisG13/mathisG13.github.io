@@ -1,7 +1,7 @@
 .page_container{
     position: relative;
     min-height: 100vh;
-    background-image: linear-gradient(to right,white,black);
+    background-image: linear-gradient(to right,black,white,black);
 }
 
 /*NAVIGATION BAR STYLE*/
