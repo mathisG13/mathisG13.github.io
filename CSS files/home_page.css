@@ -29,6 +29,27 @@
 a.nav_item:hover{
     color: rgb(99, 99, 99);
 }
+
+.menu_button{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+    display: inline;
+    float: right;
+    background-color: black;
+    padding: 0 0 0 0;
+    border-width: 0;
+}
+
+.menu_button .menu{
+    width: 70px;
+    height: 70px;
+}
+
+.menu_button .menu:hover{
+    width: 60px;
+    height: 60px;
+}
 /*NAVIGATION BAR STYLE END*/
 
 /*ABOUT US SECTION STYLE*/
