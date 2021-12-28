@@ -9,16 +9,21 @@
     <!--STYLE SHEET-->
     <link rel="stylesheet" type="text/css" href="CSS files/home_page.css" />
 
+    <!--JavaScript-->
+    <script type="text/javaScript" src="JavaScript files/home_page.js"></script>
 </head>
 
 <body style="margin: 0 0 0 0;">
     <div class="page_container">
 
         <!--NAVIGATION BAR-->
-        <nav class="top_bar">
+        <nav class="top_bar" id="nav_bar">
             <img src="media/square.png" alt="logo" class="logo" />
-            <button class="menu_button">
-                <img src="media/Nav_Arrow.png" alt="menu" class="menu" />
+            <pre style="color:white; vertical-align: top; display:inline-block;"><span style="font-size: calc(18px + 1.5vw);">Mathis Guertin</span>
+            
+    <span style="font-size: calc(10px + 0.25vw);">Student in Fashion Design</span></pre>
+            <button id="menu_but" class="menu_button" onclick="showMenuEn()">
+                <img id="menu_img" src="media/Nav_Arrow.png" alt="menu" class="menu" />
             </button>
         </nav>
 

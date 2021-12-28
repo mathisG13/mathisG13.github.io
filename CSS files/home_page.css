@@ -7,7 +7,7 @@
 /*NAVIGATION BAR STYLE*/
 .top_bar{
     background-color: black;
-    height: 100px;
+    height: fit-content;
 }
 
 .top_bar .logo{
@@ -17,12 +17,10 @@
     display: inline;
 }
 
-.top_bar .nav_item{
-    display: inline;
-    vertical-align: 40px;
-    margin-right: 30px;
+.nav_item{
+    display: block;
     color: white;
-    font-size: 2.5vw;
+    font-size: calc(18px + 1.5vw);
     text-decoration: none;
 }
 
@@ -31,9 +29,9 @@ a.nav_item:hover{
 }
 
 .menu_button{
-    width: 80px;
-    height: 80px;
-    margin: 10px 10px 10px 10px;
+    width: 70px;
+    height: 70px;
+    margin: 10px 10px 10px 0;
     display: inline;
     float: right;
     background-color: black;
@@ -42,13 +40,13 @@ a.nav_item:hover{
 }
 
 .menu_button .menu{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 .menu_button .menu:hover{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 /*NAVIGATION BAR STYLE END*/
 
@@ -127,7 +125,7 @@ a.nav_item:hover{
     width: 50%;
     height: inherit;
     display: inline-block;
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .footer_whole .footer_row .footer_column .footer_item{

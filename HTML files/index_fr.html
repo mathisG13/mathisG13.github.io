@@ -9,25 +9,28 @@
     <!--STYLE SHEET-->
     <link rel="stylesheet" type="text/css" href="../CSS files/home_page.css" />
 
+    <!--JavaScript-->
+    <script type="text/javaScript" src="../JavaScript files/home_page.js"></script>
 </head>
 
-<body style="margin: 0 0 0 0; ">
+<body style="margin: 0 0 0 0;">
     <div class="page_container">
 
         <!--NAVIGATION BAR-->
-        <nav class="top_bar">
+        <nav class="top_bar" id="nav_bar">
             <img src="../media/square.png" alt="logo" class="logo" />
-            <a class="nav_item" href="../HTML files/Mood_Boards_en.html">Planches de Tendances</a>
-            <a class="nav_item" href="../HTML files/Sketches_en.html">Esquisses</a>
-            <a class="nav_item" href="../HTML files/Patrons_en.html">Patrons</a>
-            <a class="nav_item" href="../HTML files/Drapings_en.html">Moulages</a>
-            <a class="nav_item" href="../HTML files/Clothes_en.html">Vêtements</a>
+            <pre style="color:white; vertical-align: top; display:inline-block;"><span style="font-size: calc(18px + 1.5vw);">Mathis Guertin</span>
+            
+    <span style="font-size: calc(10px + 0.25vw);">Étudiant en Mode</span></pre>
+            <button id="menu_but" class="menu_button" onclick="showMenuFr()">
+                <img id="menu_img" src="../media/Nav_Arrow.png" alt="menu" class="menu" />
+            </button>
         </nav>
 
         <!--ABOUT US SECTION-->
         <div class="about_us">
             <div class="left">
-                <p class="text"></br>SALUT C'EST UN PEU DE TEXTE À PROPOS DE MOI. MATHIS GUERTIN.</p>
+                <p class="text"></br>Salut, c'est un peu de texte à propos de moi. MATHIS GUERTIN.</p>
             </div>
             <div class="right">
                 <img src="../media/design_student.jpg" alt="design_student" class="design_student" />
@@ -41,13 +44,13 @@
                     </br>
                     <a class="footer_item" href="../index.html">En</a>
                     <span style="color: white;">/</span>
-                    <a class="footer_item" href="../HTML files/index_fr.html">Fr</a>
-                    </br>
+                    <a class="footer_item" href="index_fr.html">Fr</a>
                     </br>
                     </br>
                     <small style="color:gray;">&copy; Copyright 2021, MathisG13</small>
                 </div>
                 <div class="footer_column"></div>
+                <!--ADD MORE TO THE FOOTER IN THIS COLUMN-->
             </div>
         </footer>
     </div>
